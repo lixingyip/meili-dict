@@ -5,7 +5,7 @@
     'text-gray-500' => !$isActive,
     'rounded-lg bg-gray-100 text-gray-700' => $isActive,
 ])>
-    {{ $icon }}
+{{--    {{ $icon }}--}}
 
     <span class="text-sm font-medium"> {{ $slot }} </span>
 </a>
